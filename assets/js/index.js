@@ -10,6 +10,6 @@ function validarCampo() {
     const mensagemErro = document.createElement("p");
     mensagemErro.innerHTML =
       "Não é um número binário válido, digite novamente!";
-    input.insertAdjacentElement(mensagemErro);
+    input.insertAdjacentElement("afterend", mensagemErro);
   }
 }
